@@ -1,0 +1,24 @@
+@import "./vendors/modern_normalize";
+
+@import "./utils/Variables";
+@import "./utils/fonts";
+ 
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/button";
+@import "./components/menu";
+@import "./components/logo";
+@import "./components/modal";
+@import "./components/social-network";
+
+@import "./layout/header";
+@import "./layout/section-hero";
+@import "./layout/section-description";
+@import "./layout/section-jobs";
+@import "./layout/section-team";
+@import "./layout/section-clients";
+@import "./layout/portfolio";
+@import "./layout/footer";
+
+
