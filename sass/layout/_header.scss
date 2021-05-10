@@ -1,3 +1,4 @@
+
 .page-header {
   //   min-width: 320px;
   padding-top: 10px;
@@ -211,11 +212,13 @@
   &:focus {
     color: $accent-color;
   }
+  
+}
+.auth-nav__link--tel{
   @media screen and (max-width: 767px) {
-    &:hover,
-    &:focus {
-      font-size: 34px;
+    font-size: 34px;
       line-height: 1.17;
-    }
+      color: $accent-color;
   }
+
 }
